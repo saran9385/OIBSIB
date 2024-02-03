@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>SARAN</title>
+    <link rel="shortcut icon" href="../Html/img4.png" type="image/x-icon">
+  </head>
+  <style>
+    #navigation{
+      background-color: red;
+      color: white;
+    }
+    /* nav bars */
+    .resume{
+        margin-left: 60%;
+        border: 2px solid black;
+        color: black;
+        transition: 0.5s;
+    }
+    .resume:hover{
+        background-color: black;
+        color: white;
+        transform: scale(1.1);
+    }
+    #first{
+        display: flex;
+        background-color: black;
+        color: white;
+        height: 90vh;
+    }
+    #right{
+
+        /* margin-left: -10px; */
+        margin-right: 100px;
+
+        width: 50%;
+        margin-top: 80px;
+        text-transform: capitalize;
+        font-family: sans-serif;
+        line-height: 30px;
+    }
+    #right>.resume{
+      border: 1px solid white;
+      color: white;
+        margin-left: 20px;
+        width: 120px;
+        height: 10px;
+        padding: 15px;
+        line-height:0px;
+        text-transform: capitalize;
+        transition: 0.5s;
+    }
+    #right>.resume:hover{
+      color: black;
+      background-color: white;
+      transform: scale(1.2);
+      
+    }
+    #right>h1{
+        display: flex;
+        flex-wrap: wrap;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+    /* #image1{
+      border: 1px solid black;
+      text-align: center;
+      width: 50%;
+      height: 100vh;
+    } */
+    #image1>img{
+      /* border: 1px solid red ; */
+      /* height: 80%;
+      width: 80%; */
+      /* padding: 20px; */
+      margin-top: -100px;
+      margin-left: -100px;
+
+
+    }
+    #second{
+
+      border: 3px solid black;
+      padding: 30px;
+    }
+    .card{
+      border: 3px solid black;
+      padding: 20px;
+      transition: 1s;
+      /* height: 40vh; */
+
+    }
+    .card:hover{
+      transform: scale(1);
+
+      color: white;
+      background-color: black;
+    }
+    .images{
+      margin-top: 20px;
+      padding: 20px;
+      text-align: center;
+      text-transform: capitalize;
+      /* line-height: 20px; */
+      /* height: 100vh; */
+    }
+    /* .skill{
+      line-height: 100px;
+      text-align: center;
+      margin-right: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-shrink: column;
+    }
+    .skill>p {
+      border: 3px solid red;
+      margin-left: 100px;
+    } */
+    .skill{
+      border: 1px solid white;
+      display: inline-block;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light  bg-light" id="navigation"">
+        <div class="container-fluid" id="nav">
+          <a class="navbar-brand" href="#">SARAVANAN S</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse navigation" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#navigation">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#second">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fourth">Skills</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contact Me
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="links">
+                  <li><a class="dropdown-item" href="https://www.instagram.com/makka_lai/?hl=en">Instagram</a></li>
+                  <li><a class="dropdown-item" href="https://www.linkedin.com/in/saran0409/">Linkedin</a></li>
+                  <li><a class="dropdown-item" href="https://www.naukri.com/mnjuser/profile?id=&altresid">Naukri</a></li>
+                </ul>
+              </li>
+            </ul>
+            <button type="button" class="btn btn-outline-secondary resume">My Resume</button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- first -->
+      <div id="first">
+        <div id="image1">
+          <img src="../Html/img4.png" class="img-fluid d-lg-block" alt="...">
+       </div>
+        <div id="right" class="text-wrap">
+            <h1>saravanan s</h1>
+            <h3>-full stack developer-</h3>
+            <p>Full Stack Developer Skilled In Both Frond-End And Back-End Technologies,Creating Seamless Web Application</p>
+            <button type="button" class="btn  resume">gitup</button>
+         </div>
+
+      </div>
+      <div id="second">
+        <div id="second_head" class="col-12 text-center text-uppercase p-5">
+          <h1>Projects</h1>
+          <hr>
+        </div>
+        <div class="row p-5" id="item">
+          <div class="col-sm-4 ">
+            <div class="card h-100">  
+              <div class="card-body">
+                <h5 class="card-title">expence sharing app backend(python)</h5>
+                <hr>
+                <p class="card-text">developed a python bacend afor a roomate-focussed expense-sharing app,anabling expense tracking,bill-splitting and debt management</p>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 ">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">medical appointment backed(python)</h5>
+                <hr>
+                <p class="card-text">engineered a pyhton bacend system for appointment management,amphazing efficient scheduling and secure record storage</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title">landing page project</h5>
+                <hr>
+                <p class="card-text">created a engaging landding page,showcasing HTML/CSS proficiently.focused on design details like alignments,padding and colors while using CSS for element organization and avoiding overlap</p>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+
+      <div id="fourth">
+        <div id="carouselExampleIndicators" class="carousel slide m-0 col-sm-12 d-sm-f flex-column" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner bg-dark text-light">
+
+            <div class="carousel-item active images">
+              <div id="fourth_head" style="text-transform: uppercase; text-align: center; ">
+                <h1>educations</h1>
+                <hr style="border: 2px solid;">
+              </div>
+              <div class="education">
+                <h2>goverment higher secondary school, <br>kanyakumari</h2>
+                <p>SSLC</p>
+                <p>2018</p>
+              </div>
+              <div class="education">
+                <h2>st.antonys higher secondary school <br><p>kanyakumari</p></h2>
+                <p>higher secondary certificate(HSC)</p>
+                <p>2019-2020</p>
+              </div>
+              <div class="education ">
+                <h2>manonmaniam sundranar university <br>tirunelveli</h2>
+                <p>bachelor of computer science</p>
+                <p>apr 2020-may 2023</p>
+              </div>
+
+
+
+
+            </div>
+            <div class="carousel-item  images">
+              <div id="fifth_head" style="text-transform: uppercase; text-align: center;">
+                <h1>skills</h1>
+                <br>
+              </div>
+              <div id="content">
+              <div class="skill">
+                <h1>frontend</h1>
+                <p>HTML & CSS</p>
+                <p>JAVASCRIPT & BOOTSTRAP</p>
+              </div>
+              <div class="skill">
+                <h1>backend</h1>
+                <p>PYTHON</p>
+                <P>DIJANGO</P>
+              </div>
+              <div class="skill">
+                <h1>database</h1>
+                <p>MYSQL</p>
+                <P>ORACLE SQL</P>
+              </div>
+              <div class="skill">
+                <h1>verssion control</h1>
+                <p>GIT</p>
+                <P>GITHUB</P>
+              </div>
+              <div class="skill">
+                <h1>web development tools</h1>
+                <p>VS CODE</p>
+                <P>PIP</P>
+              </div>
+            </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
